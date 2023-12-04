@@ -1,0 +1,53 @@
+
+
+<ion-content>  
+  <ion-header>
+    <ion-toolbar class="blanco">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title class="ver_asis">Registrar Asistencia</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Para registrar asistencia presione en donde dice "Escanear"</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <form [formGroup]="formGroup">
+        <ion-button
+          expand="block"
+          (click)="startScan()"
+          [disabled]="!isSupported"
+          >Escanear</ion-button
+        >
+        <ion-button
+          expand="block"
+          (click)="openSettings()"
+          [disabled]="!isSupported"
+          >Abrir Configuracion</ion-button
+        >
+        <ion-button
+          expand="block"
+          (click)="requestPermissions()"
+          [disabled]="isPermissionGranted"
+          >Permitir Permisos</ion-button
+        >
+      </form>
+    </ion-card-content>
+  </ion-card>
+  <ng-container *ngFor="let barcode of barcodes">
+    <ion-card>
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="fixed">Informacion del Escaneo</ion-label>
+          <ion-input
+            type="text"
+            readonly
+            [value]="barcode.displayValue"
+          ></ion-input>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+  </ng-container>
+</ion-content>

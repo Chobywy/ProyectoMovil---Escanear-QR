@@ -1,0 +1,10 @@
+{
+  "appId": "dev.robingenz.capacitorjs.demo.mlkitplugins",
+  "appName": "capacitor-mlkit-plugin-demo",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {},
+  "cordova": {},
+  "windowsAndroidStudioPath":"C:\\Program Files\\Android\\Android Studio1\\bin\\studio64.exe"
+}

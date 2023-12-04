@@ -1,0 +1,51 @@
+<ion-content>
+  <app-header></app-header>
+  <div class="rectangle">
+    <img src="../../../assets/img/Branco-banner.png" alt="" class="ProfileBanner">
+    <img src="../../../assets/img/Branco-ProfilePicture.png" alt="" class="ProfilePicture">
+    <h1><strong>{{titulo}} {{apellido_alum}}</strong></h1>
+    <h2>{{correo}}</h2>
+    <div class="info-cumpleaños">
+      <img src="../../../assets/img/Cumpleaños.png" alt="">
+      <p class="cumple-text">Fecha de Cumpleaños</p>
+      <span class="fecha-cumple">30 / 11 / 2000</span>
+  </div>
+    <div class="info-carrera">
+      <img src="../../../assets/img/Profesion.png" alt="">
+      <p class="carrera-text">Carrera</p>
+      <span class="nombre-carrera">Analista Programador Computacional</span>
+  </div>
+  <br><br><br>
+    <div class="info-sede">
+      <img src="../../../assets/img/Sede.png" alt="">
+      <p class="sede-text">Sede</p>
+      <span class="nombre-sede">Duoc UC - Puente Alto</span>
+  </div>
+<div class="options-container">
+  <div class="rectangle-container">
+    <div class="rectangulo-blanco">
+        <img src="../../../assets/img/signoplus.png" alt="Signo Plus">
+        <p>Ver más información</p>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="acciones">
+  <p>Acciones<span class="barra"></span></p>
+</div>
+
+<div class="rectangulo">
+  <img src="../../../assets/img/Reg_asistencia.png" alt="Imagen 1">
+  <p>
+     <a (click)="irRestablecerW()" id="reset-link">Registrar Asistencia</a>
+  </p>
+</div>
+
+<div class="rectangulo">
+  <img src="../../../assets/img/Ver_asist.png" alt="Imagen 2">
+  <p><a (click)="irAsistenciaM()" id="reset-link">Ver Asistencia</a></p>
+</div>
+
+
+</ion-content>

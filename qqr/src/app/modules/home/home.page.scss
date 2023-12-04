@@ -1,0 +1,90 @@
+.fondo {
+    --background: url('../../../assets/img/BackgroundDuoc.png') 0/100% 100%;
+  }
+  
+  .fondo-color {
+    --background: #1F1F1F;
+  }
+  
+  p {
+    color: #ffffff;
+  }
+  
+  ion-input {
+    color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .DuocLogo img {
+    max-width: 100%;
+  }
+  
+  .custom-item ion-input {
+    max-height: 50px;
+    width: 300px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .custom-list ion-list {
+    --background: white;
+  }
+  
+  
+  
+  .button-ionic {
+    border: 10px;
+    --background: #4527A0;
+    --border-color: #311B92;
+    width: 300px;
+  }
+  
+  #reset-link {
+    color: #4527A0; /* Color deseado en hexadecimal */
+    text-decoration: none; /* Elimina la subraya por defecto del enlace */
+  }
+  
+  #container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  .fondodes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+  }

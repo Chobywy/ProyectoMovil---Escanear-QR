@@ -1,0 +1,39 @@
+
+
+<ion-content [fullscreen]="true" [ngClass]="{'fondo': !showBackgroundColor, 'fondo-color': showBackgroundColor}">
+  <div class="container">
+    <div class="DuocLogo">
+      <img src="../../../assets/img/duocuclogo.png" alt="asdadasd" class="logo">
+    </div>
+    
+    <div style="margin-bottom: 20px;"></div>
+  
+    <ion-list class="custom-list">
+      <ion-item class="custom-item">
+        <ion-input labelPlacement="floating" value="">
+          <ion-input [(ngModel)]="usuario" label="Ingrese Usuario" labelPlacement="floating"
+         placeholder="ingrese" class="input-login"></ion-input>
+        </ion-input>
+      </ion-item>
+    </ion-list>
+  
+    <div style="margin-bottom: 20px;"></div>
+  
+    <ion-list class="custom-list">
+      <ion-item class="custom-item">
+        <ion-input labelPlacement="floating" value="">
+          <ion-input [(ngModel)]="password" label="Ingrese Password" type="password" 
+        labelPlacement="floating"
+         placeholder="ingrese" class="input-login"></ion-input>
+        </ion-input>
+      </ion-item>
+    </ion-list>
+
+    <p>
+      ¿Ha olvidado la contraseña? <a  (click)="irRestablecerM()" id="reset-link">Restablécela aquí</a>
+    </p>
+
+    <ion-button class="button-ionic" (click)="irMenu()">Ingresar</ion-button>
+
+  </div>
+</ion-content>

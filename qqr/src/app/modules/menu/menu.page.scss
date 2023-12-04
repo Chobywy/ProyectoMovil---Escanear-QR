@@ -1,0 +1,67 @@
+ion-content, ion-text, p, h1, h2, h3, h4, h5, h6, a, span, div, label, button {
+    color: #ffffff;
+  }
+
+  ion-content, body {
+    --background: #121212;
+  }
+
+.header1 {
+    background: url('./../../../assets/img/estadistica_des.png')0/100% 100%;
+    color: #ffffff;
+
+}
+
+.header2 {
+    background: url('./../../../assets/img/arquitectura.png')0/100% 100%;
+    color: #ffffff;
+}
+.blanco {
+    --background: rgb(14, 14, 90);
+}
+.listas{
+    color: rgb(255, 255, 255);
+}
+.ver_asis{
+    color: #ffffff;
+}
+.header3 {
+    background: url('./../../../assets/img/calidad_soft.png')0/100% 100%;
+    color: #ffffff;
+}
+
+.header4 {
+    background: url('./../../../assets/img/etica_trab.png')0/100% 100%;
+    color: #ffffff;
+}
+
+.header5 {
+    background: url('./../../../assets/img/ingles.png')0/100% 100%;
+    color: #ffffff;
+}
+
+.header6 {
+    background: url('./../../../assets/img/fe.png')0/100% 100%;
+    color: #ffffff;
+}
+
+.header7 {
+    background: url('./../../../assets/img/portafolio.png')0/100% 100%;
+    color: #ffffff;
+}
+
+.header8 {
+    background: url('./../../../assets/img/prog_movil.png') 0/100% 100%;
+    color: #ffffff;
+}
+
+.fecha {
+    color: rgb(102, 102, 102);
+    margin-right: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.estado {
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

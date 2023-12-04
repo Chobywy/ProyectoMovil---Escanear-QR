@@ -1,0 +1,116 @@
+<ion-content>
+
+
+  <ion-menu contentId="main-content" >
+    <ion-header>
+      <ion-toolbar class="blanco">
+        <ion-title >
+          <img src="./../../../assets/img/menu_lado.png" alt="logo" width="auto" height="auto">
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      <ion-list lines="none" >
+        <ion-item>
+          <ion-label class="listas" >
+            <p><a (click)="irInicioM()" id="reset-link">Inicio</a></p>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label class="listas">Registrar Asistencia</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label class="listas">Ver Asistencia</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label class="listas">Configuracion</ion-label>
+        </ion-item>
+      </ion-list>
+  
+    </ion-content>
+
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar class="blanco">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title class="ver_asis">Ver Asistencia</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding"> <div class="materia">
+    <ion-accordion-group expand="inset" multiple="true">
+      <ion-accordion value="estadistica" toggleIcon="book-outline" toggleIconSlot="start">
+        <ion-item slot="header" color="rose" class="header1">
+          <ion-label>Estadistica Descriptiva</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content"><span class="fecha">08/07/2023</span>
+          <span class="estado">• Presente</span>
+        </div>
+        <div class="ion-padding" slot="content"><span class="fecha">08/07/2023</span>
+          <span class="estado">• Presente</span>
+        </div>
+      </ion-accordion>
+      <ion-accordion value="arquitectura">
+        <ion-item slot="header" color="rose" class="header2">
+          <ion-label>Arquitectura</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content"><span class="fecha">08/07/2023</span>
+          <span class="estado">• Presente</span>
+        </div>
+      </ion-accordion>
+      <ion-accordion value="calidad">
+        <ion-item slot="header" color="rose" class="header3">
+          <ion-label>Calidad de Software</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content"><span class="fecha">08/07/2023</span>
+          <span class="estado">• Presente</span>
+        </div>
+      </ion-accordion>
+      <ion-accordion value="etica">
+        <ion-item slot="header" color="rose" class="header4">
+          <ion-label>Etica del Trabajo</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content"><span class="fecha">08/07/2023</span>
+          <span class="estado">• Presente</span>
+        </div>
+      </ion-accordion>
+      <ion-accordion value="ingles">
+        <ion-item slot="header" color="rose" class="header5">
+          <ion-label>Ingles Intermedio</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content"><span class="fecha">08/07/2023</span>
+          <span class="estado">• Presente</span>
+        </div>
+      </ion-accordion>
+      <ion-accordion value="fe">
+        <ion-item slot="header" color="rose" class="header6">
+          <ion-label>Principios de Fe Cristiana</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content"><span class="fecha">08/07/2023</span>
+          <span class="estado">• Presente</span>
+        </div>
+      </ion-accordion>
+      <ion-accordion value="portafolio">
+        <ion-item slot="header" color="rose" class="header7">
+          <ion-label>Proceso de Portafolio Final</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content"><span class="fecha">08/07/2023</span>
+          <span class="estado">• Presente</span>
+        </div>
+      </ion-accordion>
+      <ion-accordion value="movil">
+        <ion-item slot="header" color="rose" class="header8">
+          <ion-label>Programacion de Aplicaciones Moviles</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content"><span class="fecha">08/07/2023</span>
+          <span class="estado">• Presente</span>
+        </div>
+      </ion-accordion>
+    </ion-accordion-group>
+  </div> </ion-content>
+</div>
+
+
+</ion-content>

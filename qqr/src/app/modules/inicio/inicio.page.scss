@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fondo-color {
+    --background: #1F1F1F;
+  }
+  
+  p {
+    color: #ffffff;
+  }
+  
+  ion-input {
+    color: #ffffff;
+  }
+
+ion-content, ion-text, p, h1, h2, h3, h4, h5, h6, a, span, div, label, button {
+    color: #ffffff;
+  }
+
+  ion-content, body {
+    --background: #121212;
+  }
+
+.rectangle {
+    width: calc(100% - 50px);
+    height: 520px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #101010;
+    border: 1px solid #2B2B2B;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.ProfileBanner {
+    width: calc(100% - 2px);
+    position: absolute;
+    min-height: 169px;
+    max-height: 170px;
+    top: 1px;
+    left: 0;
+    right: 0;
+}
+
+.ProfilePicture {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+    transform: scale(1.5);
+}
+
+.rectangle h1 {
+    position: absolute;
+    font-size: 32px;
+    margin-left: 5px;
+    margin-top: 225px;
+}
+
+.rectangle h2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 260px;
+    margin-left: 30px;
+    opacity: 60%;
+}
+
+.rectangle img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info-cumpleaños {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 270px;
+    margin-left: 10px;
+}
+
+.info-cumpleaños img {
+    max-width: 100px;
+    margin-right: 10px;
+    transform: scale(1.4);
+}
+
+.cumple-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.fecha-cumple {
+    font-size: 17px;
+    display: block;
+    margin-left: -150px;
+    margin-top: 50px;
+}
+
+.info-carrera {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.info-carrera img {
+    max-width: 100px;
+    margin-right: 10px;
+    transform: scale(1.4);
+}
+
+.carrera-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.nombre-carrera {
+    font-size: 17px;
+    display: block;
+    margin-left: -45px; 
+    margin-top: 50px;
+}
+
+.info-sede {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.info-sede img {
+    max-width: 100px;
+    margin-right: 10px;
+    transform: scale(1.4);
+}
+
+.sede-text {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.nombre-sede {
+    font-size: 17px;
+    display: block;
+    margin-left: -28px; 
+    margin-top: 50px;
+}
+
+.rectangle-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.rectangulo-blanco {
+    background-color: rgba(255, 255, 255, 0.03);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.rectangulo-blanco img {
+    max-width: 24px;
+    margin-right: 5px;
+}
+
+.rectangulo-blanco p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+// Fuera del Rectangle
+
+.acciones {
+    margin-top: 20px;
+}
+
+.acciones p {
+    font-size: 32px;
+    color: #FFFFFF;
+    opacity: 60%;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.barra {
+    position: absolute;
+    bottom: 8px; 
+    left: 137px;
+    height: 2px;
+    background-color: #ffffff;
+    opacity: 60%;
+    width: calc(100% - 150px);
+}
+
+// Rectangles inferiores
+
+.rectangulo {
+    background-color: #101010;
+    margin: 10px 25px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 2px solid #2B2B2B;
+    transform: translateY(-20px);
+}
+
+.rectangulo img {
+    max-width: 60px;
+    margin-right: 10px;
+}
+
+.rectangulo p {
+    font-size: 26px;
+    color: #ffffff;
+    opacity: 80%;
+}
